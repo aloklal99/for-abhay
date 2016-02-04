@@ -1,18 +1,14 @@
 package alok.tagsync;
 
 import org.apache.log4j.Logger;
-import org.apache.zookeeper.KeeperException;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Queue;
 import java.util.Random;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.Semaphore;
 import java.util.concurrent.SynchronousQueue;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicInteger;
